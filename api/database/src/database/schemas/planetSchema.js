@@ -4,6 +4,7 @@ const planetSchema = new Schema({
     
         _id: String,
         name: String,
+        img: String,
         rotation_period: String,
         orbital_period: String,
         diameter: String,
@@ -26,8 +27,8 @@ planetSchema.statics.list = async function (){
 
   planetSchema.statics.get = async function (id){
     return await this.findById(id)// findById no necesita como argumento un objeto 
-    .populate("residents",["_id", "name","gender"])
-    .populate("films",["_id", "title"])
+    .populate("residents",["_id", "name","gender", "img"])
+    .populate("films",["_id", "title", "img"])
     };
 
     planetSchema.statics.insert = async function (planet){

@@ -3,6 +3,7 @@ const {Schema} = require("mongoose");
 const characterSchema = new Schema({
         _id: String,
         name: String,
+        img: String,
         height: String,
         mass: String,
         hair_color: String,
@@ -30,8 +31,8 @@ return await this.find() //equivale a Character.find()
 
 characterSchema.statics.get = async function (id){
     return await this.findById(id)// findById no necesita como argumento un objeto 
-    .populate("homeworld",["_id", "name"])
-    .populate("films",["_id", "title"])
+    .populate("homeworld",["_id", "name","img"])
+    .populate("films",["_id", "title", "img"])
     };
 
 characterSchema.statics.insert = async function (character){

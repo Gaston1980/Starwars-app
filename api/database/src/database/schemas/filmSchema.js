@@ -4,6 +4,7 @@ const filmSchema = new Schema({
     
         _id: String,
         title: String,
+        img: String,
         opening_crawl: String,
         director: String,
         producer:String,
@@ -24,8 +25,8 @@ filmSchema.statics.list = async function (){
 
   filmSchema.statics.get = async function (id){
     return await this.findById(id)// findById no necesita como argumento un objeto 
-    .populate("characters",["_id", "name","gender"])
-    .populate("planets",["_id", "name", "climate"])
+    .populate("characters",["_id", "name","gender", "img"])
+    .populate("planets",["_id", "name", "climate", "img"])
     };
 
     filmSchema.statics.insert = async function (film){
