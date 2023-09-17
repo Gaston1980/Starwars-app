@@ -1,0 +1,35 @@
+* { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  background-color: black;
+}
+
+  
+@font-face {
+    font-family: "Starjedi";
+    src:  local("Starjedi"),
+          url("./fonts/Starjedi.ttf") format("truetype");
+    font-weight: normal;
+  }
+@font-face {
+    font-family: "Starjhol";
+    src: local("Starjhol"),
+          url("./fonts/Starjhol.ttf") format("truetype");
+    font-weight: normal;
+  }
+@font-face {
+    font-family: "Biko-Light";
+    src: local("Biko_Light"),
+         url("./fonts/Biko_Light.otf") format("truetype");
+    font-weight: normal;
+  }
+@font-face {
+    font-family: "Biko-Regular";
+    src: local("Biko_Regular"),
+         url("./fonts/Biko_Regular.otf") format("truetype");
+    font-weight: normal;
+  }

@@ -1,0 +1,59 @@
+.divCard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 500px;
+    border: solid 5px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    margin-top: 60px;
+    margin-right: 25px;
+    background-color: black;
+    opacity:70%;
+   }
+
+ .divCard:hover {  
+     transform: translateY(-2px);
+     transition: .2s;
+ }
+
+ .h3 {
+     color:white;
+     padding-right: 5px;
+     font-size: 22px;
+     font-family:'Montserrat', sans-serif;
+ }
+ .h3:hover {
+    color:rgb(0, 183, 255);
+ }
+
+.CardImg {
+    margin-top: 25px;;
+    display:block;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+/* Efecto hover sobre imagen para hacer zoom */
+.divCardImg:hover .CardImg {-webkit-transform:scale(1.5);transform:scale(1.5);}
+.divCardImg {overflow:hidden;}
+
+.p {
+    color:white;   
+}
+
+@media (width < 992px) {
+    .h3 {
+        font-size: 1.375rem;
+        margin-left: 1.25rem;
+    }
+    .CardImg {
+        width: 9.355rem;
+        height: 9.355rem;
+    }
+    .divCard {
+        margin-top: 0.625rem;
+        justify-content: space-between;
+    }
+}

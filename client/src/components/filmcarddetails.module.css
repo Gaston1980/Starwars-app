@@ -1,0 +1,342 @@
+.divNav{
+   display:flex;
+   flex-direction: row;
+   justify-content: center;
+   }
+
+.divNav img{
+   width: 400px;
+   z-index: 3;
+   position:relative;
+   }
+
+.divMainCard{
+   margin-top: 2px;
+   display:flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: flex-start;
+   margin-top: 30px;
+   z-index: 3;
+   position:relative;
+}
+
+.divCard {
+   margin-top: 45px;
+   padding-left: 30px;
+   padding-right: 25px;
+   width: 800px;
+   height: 366px;
+   border: solid 5px;
+   border-left: 0px;
+   border-top: 0px;
+   background-color:white;
+   opacity:80%;
+   z-index: 3;
+   position:relative;
+   }
+.divSpan{
+   z-index: 3;
+   position:relative;
+   padding-top: 30px;
+   padding-left: 50px;
+}
+
+.h3 {
+   color:black;
+   padding-top: 25px; 
+   padding-bottom: 15px;
+   font-size: 22px; 
+   text-align: left; 
+   font-family: "Biko-Regular" ;  
+}
+
+.FilmImg {
+   padding-top: 45px;
+   padding-left:5px;
+   width: 350px;
+   height: 406px;
+}
+
+.p {
+   color:black;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 18px;
+   font-weight: bold;
+   padding-bottom: 10px;
+   z-index: 3;
+   position:relative;
+}
+
+.span{
+   color: rgb(0, 183, 255);
+   font-family: "Biko-Light";
+   font-size: 24px;
+   padding-left: 15px;
+}
+.spanName{
+   color: rgba(255, 255, 255, 0.548);
+   font-family: "Biko-Regular";
+   font-size: 24px;
+   padding-left: 15px;
+}
+.MaindivPlanets{
+   display:flex;
+   flex-direction: row;
+   justify-content: center;
+}
+.divPlanets{
+   width: 998px;
+   height:120px;
+   display: flex;
+   flex-direction: row;
+   background-color: white;
+   opacity:80%;
+   margin-top: 1px;
+   margin-bottom: 2px;
+   z-index: 3;
+   position:relative;
+   overflow-y:scroll;
+   }
+.imgplanets{
+   width: 50px;
+   height: 50px;
+   border-radius: 100px;
+}
+
+.MaindivResidents{
+   display:flex;
+   flex-direction: row;
+   justify-content: center;
+   }
+
+.divResidents{
+   width: 990px;
+   height: 120px;
+   display: flex;
+   flex-direction: row;
+   background-color: white;
+   opacity:80%;
+   margin-top: 1px;
+   margin-bottom: 2px;
+   z-index: 3;
+   position:relative;
+   overflow-y:scroll;
+   }
+
+.divP{
+   width: 150px;
+   height: 120px;
+   display: flex;
+   flex-direction: row;
+   background-color: white;
+   opacity:80%;
+   margin-top: 1px;
+   margin-bottom: 2px;
+   z-index: 3;
+   position:relative;
+   }
+
+.divPplanets{
+   width: 142px;
+   height: 120px;
+   display: flex;
+   flex-direction: row;
+   background-color: white;
+   opacity:80%;
+   margin-top: 1px;
+   margin-bottom: 2px;
+   z-index: 3;
+   position:relative;
+   }
+
+.divMapResident{
+   margin-top: 15px;
+   margin-left: 40px;
+   margin-right: 40px;
+   margin-bottom: 2px;
+   height: 60px;
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+   }
+
+.imgResidents{
+   width: 40px;
+   height: 40px;
+   border-radius: 100px;
+   }
+
+.pPlanet {
+   padding-left: 20px;
+   padding-top: 10px;
+   color:black;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 18px;
+   font-weight: bold;
+   }
+
+.pPlanets {
+   padding-left: 20px;
+   padding-top: 10px;
+   color:rgb(0, 183, 255);
+   font-family: 'Montserrat', sans-serif;
+   font-size: 12px;
+   font-weight: bolder;
+   }
+
+.divMap{
+   margin-top: 25px;
+   margin-left: 40px;
+   margin-right: 25px;
+   margin-bottom: 2px;
+   height: 60px;
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+   }
+
+.stars, .twinkling{
+   position:absolute;
+   top:0;
+   left:0;
+   right:0;
+   bottom:0;
+   width:100%;
+   height:100%;
+   display:block;
+   }
+
+@keyframes move-twink-back {
+   from {background-position:0 0;}
+   to {background-position:-10000px 5000px;}
+}
+@-webkit-keyframes move-twink-back {
+   from {background-position:0 0;}
+   to {background-position:-10000px 5000px;}
+}
+@-moz-keyframes move-twink-back {
+   from {background-position:0 0;}
+   to {background-position:-10000px 5000px;}
+}
+@-ms-keyframes move-twink-back {
+   from {background-position:0 0;}
+   to {background-position:-10000px 5000px;}
+}
+@keyframes move-clouds-back {
+   from {background-position:0 0;}
+   to {background-position:10000px 0;}
+}
+@-webkit-keyframes move-clouds-back {
+   from {background-position:0 0;}
+   to {background-position:10000px 0;}
+}
+@-moz-keyframes move-clouds-back {
+   from {background-position:0 0;}
+   to {background-position:10000px 0;}
+}
+@-ms-keyframes move-clouds-back {
+   from {background-position: 0;}
+   to {background-position:10000px 0;}
+}
+
+.stars {
+   background:#000 url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
+   z-index:0;
+}
+.twinkling{
+   background:transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat top center;
+   z-index:1;
+   -moz-animation:move-twink-back 200s linear infinite;
+   -ms-animation:move-twink-back 200s linear infinite;
+   -o-animation:move-twink-back 200s linear infinite;
+   -webkit-animation:move-twink-back 200s linear infinite;
+   animation:move-twink-back 200s linear infinite;
+}
+
+@media (width < 992px) {
+   .stars, .twinkling {
+       height:165%;
+      }
+   .divNav img{
+       width: 12.5rem;
+      }
+   .divSpan{
+       text-align: center;
+       padding-left: 0px;
+   }
+   .span{
+      font-size: 1.125rem;
+      padding-left: 0.5rem;
+   }
+   .spanName{
+      font-size: 1.125rem;
+   }
+   .divMainCard{
+      flex-direction: column;
+      align-items: center;
+    
+   }
+   .FilmImg{
+      padding-left: 0px;
+   }
+   .p {
+      font-size: 1rem;
+   }
+   .CharacterImg{
+      width:21.875rem;
+      height: 21.875rem;
+      padding-left: 0px;
+   }
+   .divCard {
+      width:21.875rem;
+      height:40.625rem;
+      margin-top: 0rem;
+      padding-right: 0.625rem;
+      padding-left: 0.755rem ;
+      border-right: 0px;
+   }
+   .divFilms{
+      overflow: scroll;
+      width: 15.625rem;
+      height: 11.25rem;
+   }
+   .divResidents{
+      width:12.5rem;
+   }
+   .divMap{
+      margin-bottom:0.938rem;
+   }
+   .divPlanets{
+      height:7.5rem;
+      width:12.5rem;
+      margin-bottom: 1.25rem;
+   }
+   .divPplanets{
+      width:9.375rem;
+      background-color: rgb(246, 241, 241);
+      opacity: 80%;
+      border-right: 2px solid black;
+   }
+   .divP{
+      background-color: rgb(246, 241, 241);
+      opacity: 80%;
+      border-right: 2px solid black;
+   }
+   .pPlanet{
+      height:6.25rem;
+      width:6.25rem;
+    }
+    .imgplanets{
+      width:2.5rem;
+      height:2.5rem;
+    }
+    .divMap{
+       margin-right: 0.625rem;
+       margin-left: 1.25rem;
+    }
+    .divMapResident{
+      margin-right: 0rem;
+      margin-left: 1.25rem;
+    }
+}

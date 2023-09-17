@@ -1,0 +1,60 @@
+.divCard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+    height: 230px;
+    border: solid 5px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    margin-top: 70px;
+    margin-right: 25px;
+    background-image:url(https://res.cloudinary.com/dyycj9vam/image/upload/v1690409301/universe_a9bflu.jpg);
+    padding-bottom: 30px;
+    opacity: 80%;
+ }
+
+ 
+
+ .h3 {
+     color:white;
+     padding-left: 15px;
+     padding-right: 10px;
+     padding-top: 15px;
+     font-size: 22px;
+     font-family:'Montserrat', sans-serif;
+ }
+ .h3:hover{
+    color:rgb(0, 183, 255); 
+ }
+
+.FilmImg {
+    margin-top: 25px;;
+    display:block;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    border: solid 2px white
+}
+.FilmImg:hover {
+    -webkit-transform: rotateY(180deg);
+-webkit-transform-style: preserve-3d;
+transform: rotateY(180deg);
+transform-style: preserve-3d;
+}
+
+@media (width < 992px) {
+    .h3 {
+        font-size: 1.25rem;
+    }
+    .divCard {
+        width:31.25rem;
+        height:9.375rem;
+        margin-left: 0.625rem;
+    }
+    .FilmImg {
+        width: 12.5rem;
+        height:12.5rem;
+    }
+}

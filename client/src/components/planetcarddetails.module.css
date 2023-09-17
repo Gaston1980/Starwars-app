@@ -1,0 +1,335 @@
+.divNav{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    z-index: 3;
+    margin-top: 20px;
+}
+.divNav img{
+    width: 400px;
+    z-index: 3;
+}
+.divSpan{
+    z-index: 3;
+    position:relative;
+    padding-top: 30px;
+    padding-left: 50px;
+}
+.divMainCard{
+    margin-top: 40px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    z-index: 3;
+    position:relative;
+    
+}
+.divCard {
+    
+    padding-left: 30px;
+    padding-right: 25px;
+    width: 800px;
+    height: 359px;
+    border: solid 1px;
+    border-left: 0px;
+    background-color:white;
+    opacity:80%;
+    
+}
+
+.h3 {
+    color:black;
+    padding-top: 25px; 
+    padding-bottom: 15px;
+    font-size: 22px; 
+    text-align: left; 
+    font-family: "Biko-Regular" ;
+    }
+
+.PlanetImg {
+    
+    width: 350px;
+    height: 350px;
+}
+
+.p {
+    color:black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight:bold;
+    padding-bottom: 10px;
+}
+
+
+
+.span{
+    color: rgb(0, 183, 255);
+    font-family: "Biko-Light";
+    font-size: 26px;
+    padding-left: 15px;
+}
+
+.spanName{
+    color: rgba(255, 255, 255, 0.548);
+    font-family: "Biko-Regular";
+    font-size: 26px;
+    padding-left: 15px;
+}
+
+.spanHomeworld{
+    color:rgb(0, 183, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    font-weight: bolder;
+}
+
+.MaindivFilms{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.divFilms{
+    width: 998px;
+    height: 160px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    opacity:80%;
+    margin-bottom: 20px;
+    z-index: 3;
+    position:relative;
+    }
+
+.imgfilms{
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    }
+
+.MaindivResidents{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    }
+
+.divResidents{
+    width: 998px;
+    height: 140px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    opacity:80%;
+    margin-top: 1px;
+    margin-bottom: 2px;
+    z-index: 3;
+    position:relative;
+    overflow-y:scroll;
+    }
+
+.divMapResident{
+    margin-top: 25px;
+    margin-right: 40px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    height: 60px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+.imgResidents{
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    }
+
+.pFilm {
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-right: 15px;
+    color:black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+    }
+
+.pFilms {
+    padding-left: 20px;
+    padding-top: 10px;
+    color:rgb(0, 183, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: bolder;
+    }
+
+.divMap{
+    margin-top: 35px;
+    margin-left: 30px;
+    height: 100px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+.divP{
+    width: 150px;
+    height: 140px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    opacity:80%;
+    margin-top: 1px;
+    margin-bottom: 2px;
+    z-index: 3;
+    position:relative;
+    }
+
+.divPfilm{
+    width: 150px;
+    height: 160px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    opacity:80%;
+    margin-top: 0px;
+    margin-bottom: 2px;
+    z-index: 3;
+    position:relative;
+    }
+
+.stars, .twinkling{
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    width:100%;
+    height:100%;
+    display:block;
+    }
+@keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-webkit-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-moz-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-ms-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+}
+@-webkit-keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+}
+@-moz-keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+}
+@-ms-keyframes move-clouds-back {
+    from {background-position: 0;}
+    to {background-position:10000px 0;}
+}
+
+.stars {
+    background:#000 url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
+    z-index:0;
+}
+.twinkling{
+    background:transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat top center;
+    z-index:1;
+    -moz-animation:move-twink-back 200s linear infinite;
+    -ms-animation:move-twink-back 200s linear infinite;
+    -o-animation:move-twink-back 200s linear infinite;
+    -webkit-animation:move-twink-back 200s linear infinite;
+    animation:move-twink-back 200s linear infinite;
+}
+
+@media (width < 992px) {
+    .stars, .twinkling {
+        height:150%;
+    }
+    .divNav img{
+        width: 12.5rem;
+
+    }
+    .divSpan{
+        
+        text-align: center;
+        padding-left: 0px;
+    }
+    .span{
+            
+        font-size: 1.125rem;
+        padding-left: 0.5rem;
+    }
+    
+    .spanName{
+        font-size: 1.125rem;
+    }
+    .divMainCard{
+        flex-direction: column;
+        align-items: center;
+    }
+    .CharacterImg{
+        width: 21.875rem;
+        height: 21.875rem;
+        padding-left: 0px;
+      
+    }
+    .divCard {
+        width:21.875rem;
+        height:25rem;
+        margin-top: 0.625rem;
+        padding-right: 0px;
+        border-right: 0px;
+    }
+    .divFilms{
+        overflow: scroll;
+        width:12.5rem;
+        height: 10rem;
+       
+    }
+    .imgfilms{
+    
+        width: 2.5rem;
+        height: 2.5rem;
+        border-radius: 6.25rem;
+    }
+    .divResidents{
+        width:12.5rem;
+    }
+    .divMapResident{
+        margin-left: 1.7rem;
+        margin-right: 0rem;
+    }
+    .divMap{
+        margin-bottom:0.938rem;
+        margin-right: 0.875rem;
+        margin-left: 0.938rem;
+    }
+    .divP{
+        margin-left: 0px;
+        background-color: rgb(246, 241, 241);
+        opacity: 80%;
+        border-right: 2px solid black;
+    }
+    .divPfilm{
+        margin-left: 0px;
+        height:10rem;
+        background-color: rgb(246, 241, 241);
+        opacity: 80%;
+        border-right: 2px solid black;
+    }
+    }

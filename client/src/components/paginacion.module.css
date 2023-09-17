@@ -1,0 +1,58 @@
+.containerPag {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 65px;
+    z-index: 3;
+    position:relative;
+    }
+
+.buttonPag {
+    background-color: #242424;
+    font-size: 20px;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right:10px
+    }
+
+.buttonPag[disabled] {
+    background-color: white;
+    cursor: no-drop;
+    }
+
+.inputPag {
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    font-family: "Biko-Regular";
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid #242424;
+    border-radius: 100px;
+    }
+
+.p{
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: "Biko-Regular";
+    padding-left: 10px;;
+    }
+
+@media (width < 992px) {
+    .containerPag {
+        margin-top: 1.875rem;
+        margin-right: 5.625rem;
+        margin-bottom: 1.875rem;
+        }
+    }

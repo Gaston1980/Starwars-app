@@ -1,0 +1,30 @@
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    }
+.nav img{
+    z-index: 3;
+    position: relative;
+    width: 400px;
+    }
+
+@media (width < 992px) {
+
+    .stars, .twinkling {
+        height: 87.5rem;
+    }
+    .nav img{
+        margin-bottom: 1.25rem;
+        width: 12.5rem;
+    }
+}
+
+
+
+
+
+    
+    

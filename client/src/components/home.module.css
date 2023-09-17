@@ -1,0 +1,256 @@
+.header{
+    margin-top: 15px;
+    margin-bottom: 30px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    z-index: 2;
+    position:relative;
+}
+
+.header img{
+    width: 400px;
+    z-index: 2;
+    position: relative;
+}
+
+.divImg{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom:10px;
+    z-index: 2;
+    position: relative;
+    }
+
+.divImg p{
+    color: white;
+    font-family:"Starjedi", sans-serif;
+    font-size: 30px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    z-index: 2;
+    }
+
+.divImgEffect{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    }
+
+.divImgEffect img:hover{
+    border-radius:5%;
+    -webkit-border-radius:5%;
+    box-shadow: 0px 0px 15px 15px  rgb(32, 33, 37);
+    -webkit-box-shadow: 0px 0px 15px 15px  rgb(32, 33, 37) ;
+    }
+
+.divCha img{
+    width: 500px;
+    height: 350px;
+    border-radius: 5%;
+    opacity:60%;
+    z-index: 2;
+}
+
+.divFilms img{
+    width: 500px;
+    height: 350px;
+    border-radius: 5%;
+    opacity:60%;
+    z-index: 2;
+    }
+
+.divPlanets img{
+    width: 500px;
+    height: 350px;
+    border-radius: 5%;
+    opacity:60%;
+    z-index: 2;
+    }
+
+.Mainfooter{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 170px;
+    }
+
+.footer {
+    z-index: 3;
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+.footerp1{
+    text-align: center;
+    color: white;
+    font-family:'PT Mono', monospace;
+    font-size: 18px;
+    opacity:80% 
+    }
+.footerp2{
+    color: white;
+    font-family:'PT Mono', monospace;
+    font-size: 12px;
+    opacity:80%;
+    padding-top: 5px; 
+    }
+
+.aIcons{
+    color:rgb(0, 183, 255);
+    font-size: 30px;
+    padding-left: 10px;
+    }
+
+
+@keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+    }
+@-webkit-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+    }
+@-moz-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+    }
+@-ms-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+    }
+@keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+    }
+@-webkit-keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+    }
+@-moz-keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+    }
+@-ms-keyframes move-clouds-back {
+    from {background-position: 0;}
+    to {background-position:10000px 0;}
+    }
+.stars, .twinkling{
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  width:100%;
+  height:100%;
+  display:block;
+  
+}
+.stars {
+  background:#000 url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
+  z-index:0;
+}
+.twinkling{
+  background:transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat top center;
+  z-index:1;
+  -moz-animation:move-twink-back 200s linear infinite;
+  -ms-animation:move-twink-back 200s linear infinite;
+  -o-animation:move-twink-back 200s linear infinite;
+  -webkit-animation:move-twink-back 200s linear infinite;
+  animation:move-twink-back 200s linear infinite;
+}
+@media (992px < width < 1600px) {
+    .stars, .twinkling {
+        height: 87.5rem;
+    }
+    .header img{
+        width: 300px;
+    }
+    .divImg{
+        flex-direction: column;
+    }
+    .divImg p{
+        font-size: 28px;
+    }
+    .divCha img{
+        width: 450px;
+        height: 350px;
+    }
+    .divFilms img{
+        width: 450px;
+        height: 350px;
+    }
+    .divPlanets img{
+        width: 450px;
+        height: 350px;
+    }
+    .footerp1{
+        font-size: 16px;
+    }
+    .aIcons{
+        padding-bottom: 0px;
+        font-size: 28px;
+    }
+    .footerp2{
+        font-size: 12px;
+        padding-top: 1rem;
+        margin-left: 0.625rem;
+        margin-right: 0.625rem;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .Mainfooter{
+        margin-top: 6.25rem;
+    }
+}
+
+@media (width < 992px) {
+    .stars, .twinkling {
+        height: 87.5rem;
+    }
+    .header img{
+        width: 12.5rem;
+    }
+    .divImg{
+        flex-direction: column;
+    }
+    .divImg p{
+        font-size: 1.5rem;
+    }
+    .divCha img{
+        width: 18.75rem;
+        height: 12.5rem;
+    }
+    .divFilms img{
+        width: 18.75rem;
+        height: 12.5rem;
+    }
+    .divPlanets img{
+        width: 18.75rem;
+        height: 12.5rem;
+    }
+    .footerp1{
+        font-size: 0.875rem;
+    }
+    .aIcons{
+        padding-bottom: 0px;
+        font-size: 1.25rem;
+    }
+    .footerp2{
+        font-size: 0.5rem;
+        padding-top: 1rem;
+        margin-left: 0.625rem;
+        margin-right: 0.625rem;
+        text-align: center;
+    }
+    .Mainfooter{
+        margin-top: 6.25rem;
+    }
+}
