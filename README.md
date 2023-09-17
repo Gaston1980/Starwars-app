@@ -6,12 +6,12 @@ Visual Guide about Star Wars built with a microservices architecture using Docke
 Guia visual sobre Star Wars construida con estructura de microservicios utilizando Docker y diseño responsive.
 
 <div>
-  <img src="https://res.cloudinary.com/dyycj9vam/image/upload/c_scale,w_1751/v1694981829/Screenshot_2023-09-17_at_17.15.29_av1xum.png" title="Home" alt="Home" width="450" height="250"/>
-  <img src="https://res.cloudinary.com/dyycj9vam/image/upload/v1694981861/Screenshot_2023-09-17_at_17.15.46_hrgekj.png" title="Characters" alt="Characters" width="450" height="250"/>
-  <img src="https://res.cloudinary.com/dyycj9vam/image/upload/v1694982018/Screenshot_2023-09-17_at_17.16.00_akucgx.png" title="CharacterDetails" alt="Characterdetails" width="450" height="250"/>
-  <img src="https://res.cloudinary.com/dyycj9vam/image/upload/v1694981974/Screenshot_2023-09-17_at_17.16.16_svdsj8.png" title="Planets" alt="Planets" width="450" height="250"/> 
-  <img src="https://res.cloudinary.com/dyycj9vam/image/upload/v1694981914/Screenshot_2023-09-17_at_17.16.22_e9uswq.png" title="PlanetDetails" **alt="PlanetDetails" width="450" height="250"/>
-  <img src="https://res.cloudinary.com/dyycj9vam/image/upload/v1694981946/Screenshot_2023-09-17_at_17.16.32_wpc31l.png" title="Films" alt="Films" width="450" height="250"/>
+  <img src="https://res.cloudinary.com/dyycj9vam/image/upload/c_scale,w_1751/v1694981829/Screenshot_2023-09-17_at_17.15.29_av1xum.png" title="Home" alt="Home" width="400" height="250"/>
+  <img src="https://res.cloudinary.com/dyycj9vam/image/upload/v1694981861/Screenshot_2023-09-17_at_17.15.46_hrgekj.png" title="Characters" alt="Characters" width="400" height="250"/>
+  <img src="https://res.cloudinary.com/dyycj9vam/image/upload/v1694982018/Screenshot_2023-09-17_at_17.16.00_akucgx.png" title="CharacterDetails" alt="Characterdetails" width="400" height="250"/>
+  <img src="https://res.cloudinary.com/dyycj9vam/image/upload/v1694981974/Screenshot_2023-09-17_at_17.16.16_svdsj8.png" title="Planets" alt="Planets" width="400" height="250"/> 
+  <img src="https://res.cloudinary.com/dyycj9vam/image/upload/v1694981914/Screenshot_2023-09-17_at_17.16.22_e9uswq.png" title="PlanetDetails" **alt="PlanetDetails" width="400" height="250"/>
+  <img src="https://res.cloudinary.com/dyycj9vam/image/upload/v1694981946/Screenshot_2023-09-17_at_17.16.32_wpc31l.png" title="Films" alt="Films" width="400" height="250"/>
 </div>
 
 
