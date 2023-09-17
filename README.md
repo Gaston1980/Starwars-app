@@ -1,9 +1,10 @@
 ![microservicios_version](https://res.cloudinary.com/dyycj9vam/image/upload/c_scale,w_810/v1689278794/Star_Wars_img_fbukpz.jpg)
 # Star Wars App 
 
-Visual Guide about Star Wars built with a microservices architecture using Docker and a responsive design.
-
-Guia visual sobre Star Wars construida con estructura de microservicios utilizando Docker y diseño responsive.
+<p>Visual Guide about Star Wars built with a microservices architecture using Docker and a responsive design.</p>
+<p>Guia visual sobre Star Wars construida con estructura de microservicios utilizando Docker y diseño responsive.</p>
+<p>Api: docker-compose build     ----->   docker-compose up</p>
+<p>Client: docker build -t client-starwars .      ----->   docker run -p 8080:8080 client-starwars</p>
 
 <div>
   <img src="https://res.cloudinary.com/dyycj9vam/image/upload/c_scale,w_1751/v1694981829/Screenshot_2023-09-17_at_17.15.29_av1xum.png" title="Home" alt="Home" width="400" height="250"/>
