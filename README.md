@@ -2,7 +2,7 @@
 # Star Wars App 
 
 <p>Visual Guide about Star Wars built with a microservices architecture using Docker and a responsive design.</p>
-<p>Guia visual sobre Star Wars construida con estructura de microservicios utilizando Docker y diseño responsive.</p>
+<p>Guia visual sobre Star Wars construida con estructura de microservicios utilizando Docker y un diseño responsive.</p>
 <p>Api: docker-compose build     ----->   docker-compose up</p>
 <p>Client: docker build -t client-starwars .      ----->   docker run -p 8080:8080 client-starwars</p>
 
@@ -16,15 +16,16 @@
 </div>
 
 
-<h2 width="100%">👨‍💻 Tecnologías utilizadas: </h2>
+<h2 width="100%">👨‍💻 Technologies used: </h2>
 
 <div>
+  <img src="https://skillicons.dev/icons?i=vite" title="Vite" alt="Vite" width="40" height="40"/>
   <img src="https://skillicons.dev/icons?i=react" title="React" alt="React" width="40" height="40"/>
+  <img src="https://skillicons.dev/icons?i=javascript" title="JavaScript" alt="JavaScript" width="40" height="40"/>
   <img src="https://skillicons.dev/icons?i=redux" title="Redux" alt="Redux " width="40" height="40"/>
   <img src="https://skillicons.dev/icons?i=css" title="Css" alt="Css" width="40" height="40"/>
   <img src="https://skillicons.dev/icons?i=nodejs" title="NodeJS" alt="NodeJS" width="40" height="40"/> 
   <img src="https://skillicons.dev/icons?i=express" title="Express" **alt="Express" width="40" height="40"/>
-  <img src="https://skillicons.dev/icons?i=javascript" title="JavaScript" alt="JavaScript" width="40" height="40"/>
   <img src="https://skillicons.dev/icons?i=mongodb" title="Mongodb" alt="Mongodb" width="40" height="40"/> 
   <img src="https://skillicons.dev/icons?i=docker" title="Docker" alt="Docker " width="40" height="40"/>
 </div>
