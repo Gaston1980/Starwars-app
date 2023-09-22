@@ -12,6 +12,9 @@ export default defineConfig({
       usePolling:true
     }
   },
-
+preview:{
+  host:true,
+  port:8080
+}
   
 })
